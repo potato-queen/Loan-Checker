@@ -60,6 +60,8 @@ while True:
                             print("Premeuim loan accessible")
                             print("Talk to the bank.")
                             break
+                    elif 10000>left_income>1000:
+                        print("Approved for a mid range loan.")
                     else:
                         print("Not approved:Due to insufficent balance.")
                         break
